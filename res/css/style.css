@@ -1,0 +1,212 @@
+* {
+  box-sizing: border-box;
+  user-select: none;
+  user-zoom: none;
+  margin: 0;
+}
+
+body {
+  margin: 0px;
+  background-image: url(../img/menubackground.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#Play {
+  border: 1px solid black;
+  position: fixed;
+  cursor: pointer;
+  max-width: 200px;
+  width: 100%;
+  text-align: center;
+  left: 50%;
+  right: 50%;
+  top: 50%;
+  margin-left: -100px;
+  margin-right: -100px;
+  color: white;
+}
+
+#back{
+  max-width: 200px;
+  display: none;
+  cursor: pointer;
+}
+
+#backs {
+  max-width: 200px;
+  display:none;
+  cursor: pointer;
+}
+
+#spawn {
+  margin: 0 auto;
+  display: none;
+  position: fixed;
+  width: 100%;
+}
+
+#shop {
+  position: fixed;
+  margin: 0 auto;
+  left: 45%;
+  cursor: pointer;
+  top: 25%;
+  display: none;
+  max-width: 200px;
+}
+
+#fight {
+  max-width: 200px;
+  float: right;
+  cursor: pointer;
+  display: none;
+}
+#containerp {
+  position: absolute;
+  top: 35%;
+  left: 17%;
+}
+#player {
+  /*position: absolute;*/
+  display: none;
+  width: 500px;
+  height: 350px;
+  /*top: 35%;
+  left: 17%;*/
+  transition: 0.1s;
+}
+#containerhpp{
+  display: none;
+  justify-content: center;
+}
+#playerHp,
+#playerHps {
+  /*position: absolute;*/
+  display: block;
+  /*top: 75%;
+  left: 32.25%;*/
+  color: white;
+  font-size: 24pt;
+  margin-top: 50px;
+  text-align: center;
+}
+
+#attack {
+  position: absolute;
+  display: none;
+  left: 0;
+  bottom: 0;
+  cursor: pointer;
+  bottom: 0;
+}
+
+#containere {
+  position: absolute;
+  top: 50%;
+  right: 22.25%;
+}
+#enemy {
+  /*position: absolute;*/
+  display: none;
+  width: 500px;
+  height: 200px;
+  /*top: 50%;
+  right: 22.25%;*/
+}
+#containerhpe{
+  display: none;
+  justify-content: center;
+}
+#enemyHp,
+#enemyHps,
+#enemyHp3 {
+  /*position: absolute;*/
+  display: block;
+  /*top: 75%;
+  right: 22.25%;*/
+  color: red;
+  font-size: 24pt;
+  text-align: center;
+}
+@media screen and (max-width: 1400px) {
+  #containerp {
+    top: 15%;
+    left: 5%;
+  }
+  #containere {
+    top: 35%;
+    right: 5%;
+  }
+}
+@media screen and (max-width: 900px) {
+  #containerp {
+    left: -15%;
+  }
+  #containere {
+    right: -15%;
+  }
+}
+
+#moneyCounter {
+  position: absolute;
+  width: 11%;
+  height: 8%;
+  bottom: 0;
+  right: 0;
+  text-align: center;
+  display: none;
+  font-size: 25pt;
+  color: white;
+  padding-top: 30px;
+  padding-left: 100px;
+  background-image: url(../img/goldsicon.png);
+  background-repeat: no-repeat;
+
+  background-size: cover;
+}
+
+#dmgplayer {
+  position: absolute;
+  max-width: 150px;
+  bottom: 0;
+  left: 2%;
+  font-size: 20pt;
+  color: white;
+}
+
+#longsword {
+  position:absolute;
+  max-width: 100px;
+  top:25%;
+  left:20%;
+  background: rgb(2,0,36);
+  background: linear-gradient(150deg, rgba(2,0,36,1) 67%, rgba(2,51,89,1) 88%, rgba(0,212,255,1) 100%);
+}
+
+#bfsword {
+  position:absolute;
+  max-width: 100px;
+  top:25%;
+  left:28%;
+  background: rgb(2,0,36);
+  background: linear-gradient(150deg, rgba(2,0,36,1) 36%, rgba(55,6,88,1) 47%, rgba(36,6,78,1) 58%, rgba(0,0,0,1) 78%);
+}
+
+#lsinfo {
+  position:absolute;
+  font-size: 20pt;
+  top:35%;
+  left:19%;
+  color:white
+}
+
+#bfinfo {
+  position:absolute;
+  font-size: 20pt;
+  top: 35%;
+  left: 27.5%;
+  color:white;
+}
