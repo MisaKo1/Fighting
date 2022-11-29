@@ -30,6 +30,8 @@ const longswordprice = document.getElementById("longswordprice")
 const bfsword = document.getElementById("bfsword")
 const bfswordprice = document.getElementById("bfswordprice")
 
+const themeFight = document.getElementById("themeFight");
+
 let playerHp2 = 590;
 let dmgplayer = 50;
 let maxHpPlayer = 590;
@@ -71,6 +73,9 @@ window.onload = () => {
 };
 
 fight.onclick = () => {
+  themeFight.play();
+  themeFight.volume = 0.1;
+
   shop.style.display = "none";
   fight.style.display = "none";
   attack.style.display = "block";
@@ -124,7 +129,7 @@ attack.onmousedown = () => {
   if (enemyHp.innerHTML <= 0) {
     setTimeout(() => {
       document.body.style.backgroundImage = "url(./res/img/Spawn.png)";
-      golds += 20;
+      golds += 43;
       kills += 4;
       moneyCounter.innerHTML = `${golds}`;
       containerp.style.display = "none";
