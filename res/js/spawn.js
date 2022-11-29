@@ -223,10 +223,10 @@ longsword.onmouseleave = () => {
 
 bfsword.onmouseover = () => {
   bfinfo.innerHTML = "+40 damage";
-  bfswordprice.innerHTML = "1300 golds"
+  bfswordprice.innerHTML = "1300 golds";
 }
 
 bfsword.onmouseleave = () => {
   bfinfo.innerHTML = "";
-  bfswordprice.innerHTML = ""
+  bfswordprice.innerHTML = "";
 }
