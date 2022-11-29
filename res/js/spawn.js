@@ -26,7 +26,9 @@ const moneyCounter = document.getElementById("moneyCounter");
 const damageCounter = document.getElementById("damage");
 
 const longsword = document.getElementById("longsword")
+const longswordprice = document.getElementById("longswordprice")
 const bfsword = document.getElementById("bfsword")
+const bfswordprice = document.getElementById("bfswordprice")
 
 let playerHp2 = 590;
 let dmgplayer = 50;
@@ -149,7 +151,9 @@ shop.onclick = () => {
   fight.style.display = "none";
   shop.style.display = "none";
   longsword.style.display = "block";
+  longswordprice.style.display = "block";
   bfsword.style.display = "block";
+  bfswordprice.style.display = "block";
   backs.style.display = "block";
 
   document.body.style.backgroundImage = "url(./res/img/shop.png)";
@@ -189,7 +193,6 @@ backs.onclick = () => {
   bfsword.style.display = "none";
   
 };
-
 longsword.onclick = () => {
   if (golds >= 350){
       dmgplayer += 10;
@@ -210,16 +213,20 @@ bfsword.onclick = () => {
 
 longsword.onmouseover = () => {
   lsinfo.innerHTML = "+10 damage";
+  longswordprice.innerHTML = "350 golds"
 }
 
 longsword.onmouseleave = () => {
   lsinfo.innerHTML = "";
+  longswordprice.innerHTML = ""
 }
 
 bfsword.onmouseover = () => {
   bfinfo.innerHTML = "+40 damage";
+  bfswordprice.innerHTML = "1300 golds"
 }
 
 bfsword.onmouseleave = () => {
   bfinfo.innerHTML = "";
+  bfswordprice.innerHTML = ""
 }
