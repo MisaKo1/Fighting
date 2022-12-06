@@ -12,12 +12,10 @@ const containere = document.getElementById("containere");
 
 const attack = document.getElementById("attack");
 
-/*const playerHp = document.getElementById("playerHp");*/
 const containerhpp = document.getElementById("containerhpp");
 const playerHps = document.getElementById("playerHp");
 const playerHp = document.getElementById("playerHps");
 
-/*const enemyHp = document.getElementById("enemyHp");*/
 const containerhpe = document.getElementById("containerhpe");
 const enemyHp = document.getElementById("enemyHp");
 const enemyHps = document.getElementById("enemyHps");
@@ -118,16 +116,13 @@ fight.onclick = () => {
   rcrystal.style.display = "none";
   kgem.style.display = "none";
 
-  /*playerHps.innerHTML -= playerHps.innerHTML;*/
   playerHps.innerHTML = maxHpPlayer;
   playerHp.innerHTML = maxHpPlayer;
-  /*enemyHps.innerHTM -= enemyHps.innerHTM;*/
   enemyHp.innerHTML = 477;
 
   if (enemyHp.innerHTML > 0) {
     const enemydmginterval = setInterval(() => {
-      /*playerHp2 -= dmgminion;*/
-      /*playerHp.innerHTML = `${playerHp2}`;*/
+    
       if (
         enemycannon.style.display == "block" &&
         enemy.style.display == "none"

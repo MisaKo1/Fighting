@@ -316,7 +316,7 @@ body {
 }
 
 #kgemprice {
-  position:absolute;
+  position:absolute; 
   font-size: 20pt;
   color:gold;
   top:52%;
