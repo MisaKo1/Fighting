@@ -25,6 +25,7 @@ const enemycannon = document.getElementById("enemycannon");
 const moneyCounter = document.getElementById("moneyCounter");
 const damageCounter = document.getElementById("damage");
 const hpCounter = document.getElementById("hpCounter");
+const killCounter = document.getElementById("killCounter");
 
 const damageitems = document.getElementById("damageitems");
 const healthitems = document.getElementById("healthitems");
@@ -361,5 +362,3 @@ kgem.onmouseleave = () => {
   kgeminfo.innerHTML = "";
   kgemprice.innerHTML = "";
 };
-
-/*jj*/
