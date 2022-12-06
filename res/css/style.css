@@ -83,7 +83,8 @@ body {
   justify-content: center;
 }
 #playerHp,
-#playerHps {
+#playerHps,
+#playerHp3 {
   /*position: absolute;*/
   display: block;
   /*top: 75%;
@@ -109,13 +110,17 @@ body {
   right: 22.25%;
 }
 #enemy {
-  /*position: absolute;*/
+  
   display: none;
   width: 500px;
   height: 200px;
-  /*top: 50%;
-  right: 22.25%;*/
 }
+#enemycannon {
+  display:none;
+  width:500px;
+  height:200px;
+}
+
 #containerhpe{
   display: none;
   justify-content: center;
@@ -177,52 +182,146 @@ body {
   color: white;
 }
 
+#damageitems{
+  position:absolute;
+  top:20%;
+  left:18%;
+  color:white;
+  font-size:30pt;
+  display:none;
+}
+
+#healthitems{
+  position:absolute;
+  top:46%;
+  left:18%;
+  color:white;
+  font-size:30pt;
+  display:none;
+}
+
 #longsword {
   position:absolute;
   max-width: 100px;
-  top:25%;
+  top:30%;
   left:20%;
   background: rgb(2,0,36);
   background: linear-gradient(150deg, rgba(2,0,36,1) 67%, rgba(2,51,89,1) 88%, rgba(0,212,255,1) 100%);
 }
 
-#bfsword {
-  position:absolute;
-  max-width: 100px;
-  top:25%;
-  left:28%;
-  background: rgb(2,0,36);
-  background: linear-gradient(150deg, rgba(2,0,36,1) 36%, rgba(55,6,88,1) 47%, rgba(36,6,78,1) 58%, rgba(0,0,0,1) 78%);
-}
-
 #lsinfo {
   position:absolute;
   font-size: 20pt;
-  top:35%;
+  top:40%;
   left:19%;
   color:white
-}
-
-#bfinfo {
-  position:absolute;
-  font-size: 20pt;
-  top: 35%;
-  left: 27.5%;
-  color:white;
 }
 
 #longswordprice {
   position:absolute;
   font-size: 20pt;
   color:gold;
-  top:22%;
+  top:27%;
   left:20%;
+}
+
+
+#bfsword {
+  position:absolute;
+  max-width: 100px;
+  top:30%;
+  left:35%;
+  background: rgb(2,0,36);
+  background: linear-gradient(150deg, rgba(2,0,36,1) 36%, rgba(55,6,88,1) 47%, rgba(36,6,78,1) 58%, rgba(0,0,0,1) 78%);
+}
+
+#bfinfo {
+  position:absolute;
+  font-size: 20pt;
+  top: 40%;
+  left: 34.25%;
+  color:white;
 }
 
 #bfswordprice {
   position:absolute;
   font-size: 20pt;
   color:gold;
-  top:22%;
+  top:27%;
+  left:34.75%;
+}
+
+#serrdirk {
+  position:absolute;
+  max-width: 100px;
+  top: 30%;
+  left:27.5%;
+  background: rgb(0,0,0);
+  background: linear-gradient(150deg, rgba(0,0,0,1) 15%, rgba(82,18,29,1) 30%, rgba(144,32,32,1) 45%, rgba(78,6,34,1) 70%, rgba(0,0,0,1) 85%, rgba(0,0,0,1) 100%);
+}
+
+#dirkinfo {
+  position:absolute;
+  font-size: 20pt;
+  top: 40%;
+  left:27%;
+  color:white;
+}
+
+#dirkprice {
+  position:absolute;
+  font-size: 20pt;
+  color:gold;
+  top:27%;
+  left:27.25%;
+}
+
+#rcrystal {
+  position:absolute;
+  max-width: 100px;
+  top:55%;
+  left:20%;
+
+}
+
+#rcrystalinfo {
+  position:absolute;
+  font-size: 20pt;
+  top:63%;
+  left:20%;
+  color:white
+}
+
+#rcrystalprice {
+  position:absolute;
+  font-size: 20pt;
+  color:gold;
+  top:52%;
+  left:20%;
+}
+
+#kgem {
+  position:absolute;
+  max-width: 100px;
+  top: 55%;
   left:27.5%;
 }
+
+#kgeminfo {
+  position:absolute;
+  font-size: 20pt;
+  top: 63%;
+  left:27.5%;
+  color:white;
+}
+
+#kgemprice {
+  position:absolute;
+  font-size: 20pt;
+  color:gold;
+  top:52%;
+  left:27.5%;
+}
+
+
+
