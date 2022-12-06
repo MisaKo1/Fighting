@@ -196,7 +196,7 @@ attack.onmousedown = () => {
       shop.style.display = "block";
       fight.style.display = "block";
       back.style.display = "none";
-      moneyCounter.style.display = "block"; //jj
+      moneyCounter.style.display = "block";
       enemyHp3.style.display = "block";
     }, 1);
   }
@@ -361,3 +361,5 @@ kgem.onmouseleave = () => {
   kgeminfo.innerHTML = "";
   kgemprice.innerHTML = "";
 };
+
+/*jj*/
