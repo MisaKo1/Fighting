@@ -252,6 +252,7 @@ body {
 }
 
 #serrdirk {
+  display:none;
   position:absolute;
   max-width: 100px;
   top: 30%;
@@ -277,6 +278,7 @@ body {
 }
 
 #rcrystal {
+  display:none
   position:absolute;
   max-width: 100px;
   top:55%;
@@ -301,6 +303,7 @@ body {
 }
 
 #kgem {
+  display:none
   position:absolute;
   max-width: 100px;
   top: 55%;

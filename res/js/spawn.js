@@ -103,7 +103,6 @@ fight.onclick = () => {
   fight.style.display = "none";
   attack.style.display = "block";
   player.style.display = "block";
-  /*enemy.style.display = "block";*/
   containerhpp.style.display = "flex";
   containerhpe.style.display = "flex";
   containerp.style.display = "block";
