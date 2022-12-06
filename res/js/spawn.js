@@ -196,7 +196,7 @@ attack.onmousedown = () => {
       shop.style.display = "block";
       fight.style.display = "block";
       back.style.display = "none";
-      moneyCounter.style.display = "block";
+      moneyCounter.style.display = "block"; //jj
       enemyHp3.style.display = "block";
     }, 1);
   }
