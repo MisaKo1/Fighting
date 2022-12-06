@@ -278,7 +278,7 @@ body {
 }
 
 #rcrystal {
-  display:none
+  display:none;
   position:absolute;
   max-width: 100px;
   top:55%;
@@ -289,7 +289,7 @@ body {
 #rcrystalinfo {
   position:absolute;
   font-size: 20pt;
-  top:63%;
+  top:65%;
   left:20%;
   color:white
 }
@@ -303,7 +303,7 @@ body {
 }
 
 #kgem {
-  display:none
+  display:none;
   position:absolute;
   max-width: 100px;
   top: 55%;
@@ -313,7 +313,7 @@ body {
 #kgeminfo {
   position:absolute;
   font-size: 20pt;
-  top: 63%;
+  top: 65%;
   left:27.5%;
   color:white;
 }
